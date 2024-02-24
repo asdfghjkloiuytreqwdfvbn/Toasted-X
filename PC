@@ -1,0 +1,432 @@
+-- Gui to Lua
+-- Version: 3.6
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+
+-- Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.259619415, 0, 0.198788762, 0)
+Frame.Size = UDim2.new(0, 615, 0, 434)
+
+UICorner.Parent = Frame
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.1187215, 0)
+ScrollingFrame.Size = UDim2.new(0, 615, 0, 376)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 20, 0)
+ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.ScrollBarThickness = 0
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0434959345, 0, 0.00994817726, 0)
+TextButton.Size = UDim2.new(0, 560, 0, 45)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Da Hood"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 33.000
+TextButton.TextWrapped = true
+
+UICorner_2.Parent = TextButton
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.172999993, 0, 0.0170000009, 0)
+TextButton_2.Size = UDim2.new(0, 400, 0, 40)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Agent"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 28.000
+
+UICorner_3.Parent = TextButton_2
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.172999993, 0, 0.023, 0)
+TextButton_3.Size = UDim2.new(0, 400, 0, 40)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Disruptance X"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 32.000
+
+UICorner_4.Parent = TextButton_3
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.172999993, 0, 0.0350000001, 0)
+TextButton_4.Size = UDim2.new(0, 400, 0, 40)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Zapped V3"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 32.000
+
+UICorner_5.Parent = TextButton_4
+
+UICorner_6.Parent = ScrollingFrame
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0, -25)
+TextLabel.Size = UDim2.new(0, 500, 0, 100)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Toasted X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 100.000
+TextLabel.TextWrapped = true
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.172999993, 0, 0.0289999992, 0)
+TextButton_5.Size = UDim2.new(0, 400, 0, 40)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Pluto Hub"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 32.000
+
+UICorner_7.Parent = TextButton_5
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.0430000015, 0, 0.0430000015, 0)
+TextButton_6.Size = UDim2.new(0, 560, 0, 45)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Blox Fruits"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 33.000
+TextButton_6.TextWrapped = true
+
+UICorner_8.Parent = TextButton_6
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.172999993, 0, 0.0500000007, 0)
+TextButton_7.Size = UDim2.new(0, 400, 0, 40)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "RedZ Hub"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 32.000
+
+UICorner_9.Parent = TextButton_7
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.172999993, 0, 0.0560000017, 0)
+TextButton_8.Size = UDim2.new(0, 400, 0, 40)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Sky Hub"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 32.000
+
+UICorner_10.Parent = TextButton_8
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.172999993, 0, 0.061999999, 0)
+TextButton_9.Size = UDim2.new(0, 400, 0, 40)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Hoho  Hub"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 32.000
+
+UICorner_11.Parent = TextButton_9
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.BorderSizePixel = 0
+TextButton_10.Position = UDim2.new(0.172999993, 0, 0.0680000037, 0)
+TextButton_10.Size = UDim2.new(0, 400, 0, 40)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Obfuscated"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 32.000
+
+UICorner_12.Parent = TextButton_10
+
+-- Scripts:
+
+local function RASZI_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local button = -- your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(RASZI_fake_script)()
+local function HRYULM_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/pcallskeleton/CE-Technologies/main/script', true))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(HRYULM_fake_script)()
+local function RSHVX_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/grekkk/relases/main/zapped.lua'))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(RSHVX_fake_script)()
+local function GIHHD_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(GIHHD_fake_script)()
+local function XKLFLXI_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(XKLFLXI_fake_script)()
+local function VBRS_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/arlists/Sky-Hub/main/Main", true))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(VBRS_fake_script)()
+local function SFIJBHB_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(SFIJBHB_fake_script)()
+local function LOWYEG_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/sekrte3345544/Roblox/main/new-obfuscated.lua"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(LOWYEG_fake_script)()
+local function OAZSEV_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local gui = script.Parent -- Assuming the script is a child of the GUI element you want to drag
+	
+	-- Variables to store mouse input positions
+	local dragStart
+	local startPos
+	
+	-- Function to handle mouse movement
+	local function onMouseMove(input)
+		if dragStart then
+			-- Calculate the new position of the GUI element
+			local dragDelta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + dragDelta.X, startPos.Y.Scale, startPos.Y.Offset + dragDelta.Y)
+		end
+	end
+	
+	-- Function to handle mouse button down event
+	local function onMouseDown(input)
+		-- Check if the input is a left mouse button click
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			-- Store the initial position of the mouse and the GUI element
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			-- Connect the mouse move event while the left mouse button is held down
+			inputChangedConn = game:GetService("UserInputService").InputChanged:Connect(onMouseMove)
+		end
+	end
+	
+	-- Function to handle mouse button up event
+	local function onMouseUp(input)
+		-- Check if the input is a left mouse button release
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			-- Stop dragging
+			dragStart = nil
+			startPos = nil
+	
+			-- Disconnect the mouse move event
+			if inputChangedConn then
+				inputChangedConn:Disconnect()
+			end
+		end
+	end
+	
+	-- Connect mouse events
+	gui.InputBegan:Connect(onMouseDown)
+	gui.InputEnded:Connect(onMouseUp)
+	
+end
+coroutine.wrap(OAZSEV_fake_script)()
+local function VMJDD_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Get a reference to the GUI element you want to animate
+	local gui = script.Parent -- Assuming the LocalScript is a direct child of the GUI element
+	
+	-- Set the initial transparency of the GUI to 1 (completely transparent)
+	gui.BackgroundTransparency = 1
+	
+	-- Get the TweenService
+	local tweenService = game:GetService("TweenService")
+	
+	-- Create a new TweenInfo object to specify the duration and easing style of the tween
+	local tweenInfo = TweenInfo.new(
+		1, -- Duration (in seconds)
+		Enum.EasingStyle.Linear, -- Easing style
+		Enum.EasingDirection.InOut, -- Easing direction
+		0, -- Number of repetitions (0 for no repetition)
+		false -- Whether to repeat
+	)
+	
+	-- Define the properties you want to tween (in this case, BackgroundTransparency)
+	local tweenProperties = {
+		BackgroundTransparency = 0 -- Final transparency (fully opaque)
+	}
+	
+	-- Create the tween
+	local tween = tweenService:Create(gui, tweenInfo, tweenProperties)
+	
+	-- Play the tween when the game starts
+	game:GetService("RunService").RenderStepped:Connect(function()
+		tween:Play()
+	end)
+	
+end
+coroutine.wrap(VMJDD_fake_script)()
