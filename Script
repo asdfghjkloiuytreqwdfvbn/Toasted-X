@@ -38,9 +38,26 @@ local UICorner_10 = Instance.new("UICorner")
 local TextButton_10 = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local TextButton_11 = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
 local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UICorner_18 = Instance.new("UICorner")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
 
 -- Properties:
 
@@ -140,7 +157,7 @@ TextButton_2.BorderSizePixel = 0
 TextButton_2.Position = UDim2.new(0, 74, 0, 83)
 TextButton_2.Size = UDim2.new(0, 169, 0, 28)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Swag Mode"
+TextButton_2.Text = "Zinc Hub"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 14.000
 
@@ -218,7 +235,7 @@ TextButton_7.BorderSizePixel = 0
 TextButton_7.Position = UDim2.new(0.231999993, 0, 0.0700000003, 45)
 TextButton_7.Size = UDim2.new(0, 169, 0, 28)
 TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "Night's Hub"
+TextButton_7.Text = "Toasted X"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 14.000
 
@@ -267,17 +284,111 @@ UICorner_11.Parent = TextButton_10
 UIAspectRatioConstraint_7.Parent = TextButton_10
 UIAspectRatioConstraint_7.AspectRatio = 6.036
 
-UIAspectRatioConstraint_8.Parent = Player
-UIAspectRatioConstraint_8.AspectRatio = 1.283
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.BorderSizePixel = 0
+TextButton_11.Position = UDim2.new(0.231999993, 0, 0.100000001, 95)
+TextButton_11.Size = UDim2.new(0, 169, 0, 28)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Fai Fao"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 14.000
 
-UICorner_12.Parent = frame
+UICorner_12.Parent = TextButton_11
 
-UIAspectRatioConstraint_9.Parent = frame
-UIAspectRatioConstraint_9.AspectRatio = 1.277
+UIAspectRatioConstraint_8.Parent = TextButton_11
+UIAspectRatioConstraint_8.AspectRatio = 6.036
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.BorderSizePixel = 0
+TextButton_12.Position = UDim2.new(0.231999993, 0, 0.100000001, 130)
+TextButton_12.Size = UDim2.new(0, 169, 0, 28)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Hoho Hub"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 14.000
+
+UICorner_13.Parent = TextButton_12
+
+UIAspectRatioConstraint_9.Parent = TextButton_12
+UIAspectRatioConstraint_9.AspectRatio = 6.036
+
+TextButton_13.Parent = ScrollingFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.BorderSizePixel = 0
+TextButton_13.Position = UDim2.new(0.231999993, 0, 0.100000001, 165)
+TextButton_13.Size = UDim2.new(0, 169, 0, 28)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "Annie hub"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 14.000
+
+UICorner_14.Parent = TextButton_13
+
+UIAspectRatioConstraint_10.Parent = TextButton_13
+UIAspectRatioConstraint_10.AspectRatio = 6.036
+
+TextButton_14.Parent = ScrollingFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.BorderSizePixel = 0
+TextButton_14.Position = UDim2.new(0.0480000004, 0, 0.0900000036, 270)
+TextButton_14.Size = UDim2.new(0, 281, 0, 28)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "Blade Ball"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextSize = 14.000
+TextButton_14.TextStrokeTransparency = 3450.000
+
+UICorner_15.Parent = TextButton_14
+
+TextButton_15.Parent = ScrollingFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.BorderSizePixel = 0
+TextButton_15.Position = UDim2.new(0.231999993, 0, 0.100000001, 200)
+TextButton_15.Size = UDim2.new(0, 169, 0, 28)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "MTriet-Hub"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextSize = 14.000
+
+UICorner_16.Parent = TextButton_15
+
+UIAspectRatioConstraint_11.Parent = TextButton_15
+UIAspectRatioConstraint_11.AspectRatio = 6.036
+
+TextButton_16.Parent = ScrollingFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.BorderSizePixel = 0
+TextButton_16.Position = UDim2.new(0.231999993, 0, 0.100000001, 275)
+TextButton_16.Size = UDim2.new(0, 169, 0, 28)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "Neon C Hub"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextSize = 14.000
+
+UICorner_17.Parent = TextButton_16
+
+UIAspectRatioConstraint_12.Parent = TextButton_16
+UIAspectRatioConstraint_12.AspectRatio = 6.036
+
+UIAspectRatioConstraint_13.Parent = Player
+UIAspectRatioConstraint_13.AspectRatio = 1.283
+
+UICorner_18.Parent = frame
+
+UIAspectRatioConstraint_14.Parent = frame
+UIAspectRatioConstraint_14.AspectRatio = 1.277
 
 -- Scripts:
 
-local function MMCCL_fake_script() -- frame.LocalScript 
+local function HHQL_fake_script() -- frame.LocalScript 
 	local script = Instance.new('LocalScript', frame)
 
 	-- Drag GUI Script
@@ -330,16 +441,16 @@ local function MMCCL_fake_script() -- frame.LocalScript
 	enableDragging(gui)
 	
 end
-coroutine.wrap(MMCCL_fake_script)()
-local function MRPPQ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(HHQL_fake_script)()
+local function HYGF_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
-	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
+	local button = -- Your button UI element, get it appropriately
 	
-	-- Function to execute the script
-	local function executeScript()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
-	end
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+		end
 	
 	-- Event handler for button click
 	button.MouseButton1Click:Connect(function()
@@ -347,8 +458,8 @@ local function MRPPQ_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(MRPPQ_fake_script)()
-local function YGGWAQN_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(HYGF_fake_script)()
+local function HBLA_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
@@ -364,8 +475,8 @@ local function YGGWAQN_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(YGGWAQN_fake_script)()
-local function VZDIUWL_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(HBLA_fake_script)()
+local function IZFBGW_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
@@ -381,8 +492,8 @@ local function VZDIUWL_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(VZDIUWL_fake_script)()
-local function JYRB_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(IZFBGW_fake_script)()
+local function GVKZRCM_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
@@ -398,31 +509,25 @@ local function JYRB_fake_script() -- TextButton_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(JYRB_fake_script)()
-local function PLJZR_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(GVKZRCM_fake_script)()
+local function UMHIDMV_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
-	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
+	local button = -- Your button UI element, get it appropriately
 	
-	-- Function to execute the script
-	local function executeLoader()
-		-- Set the loader configurations
-		getgenv().JH_FAST_LOAD = true
-		getgenv().JH_TOGGLE_BUTTON = false
-		getgenv().JH_TOGGLE_KEYBIND = "LeftControl"
-	
-		-- Load Jayden's Hub
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Jxys3rrV/jaydens-hub/main/script'))()
-	end
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://pastebin.com/raw/AZ2AXiay"))()
+		end
 	
 	-- Event handler for button click
 	button.MouseButton1Click:Connect(function()
-		executeLoader()
+		executeScript()
 	end)
 	
 end
-coroutine.wrap(PLJZR_fake_script)()
-local function RBVKW_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(UMHIDMV_fake_script)()
+local function KFDR_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
@@ -438,8 +543,8 @@ local function RBVKW_fake_script() -- TextButton_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(RBVKW_fake_script)()
-local function VJFH_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(KFDR_fake_script)()
+local function UCQBJ_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	local button = script.Parent -- Assuming the button is a direct child of a UI element like a ScreenGui
@@ -455,4 +560,89 @@ local function VJFH_fake_script() -- TextButton_10.LocalScript
 	end)
 	
 end
-coroutine.wrap(VJFH_fake_script)()
+coroutine.wrap(UCQBJ_fake_script)()
+local function ZOQB_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(ZOQB_fake_script)()
+local function CXNF_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(CXNF_fake_script)()
+local function BGVS_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/xSync-gg/Annie-Hub/main/Main"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(BGVS_fake_script)()
+local function LNCMSH_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(LNCMSH_fake_script)()
+local function UJTGL_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	local button = -- Your button UI element, get it appropriately
+	
+		-- Function to execute the script
+		local function executeScript()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-V5/main/UpdatedVersion"))()
+		end
+	
+	-- Event handler for button click
+	button.MouseButton1Click:Connect(function()
+		executeScript()
+	end)
+	
+end
+coroutine.wrap(UJTGL_fake_script)()
